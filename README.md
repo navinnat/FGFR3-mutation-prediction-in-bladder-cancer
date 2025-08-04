@@ -23,9 +23,15 @@ that help identify the presence of the FGFR3 mutation. Interpretive visualizatio
 created to understand the model and examine intra-cancerous heterogeneity between both 
 mutation-present and wild-type classes, which showed that cancerous regions play a vital role in 
 differentiating between the FGFR3 mutation and wild-type classes. 
+### Workflow
 <p align="center">
     <img src="assets/workflow.png" alt="failed loading the image" width="1100"/>
 </p>
-The Tiling and feature extraction are done using the Ctranspath feature extractor in [STAMP] (https://github.com/KatherLab/STAMP)
-The [CHIEF] (https://github.com/hms-dbmi/CHIEF) Foundational model is used to aggregate the tile-level features to the slide-level features.
-The aggregation and important tile visualization is incorporated from [EAGLE] (https://github.com/KatherLab/EAGLE)
+### The analyis was done on Whole Slide Image of Bladder cancer aquired privately
+
+####
+The Tiling and feature extraction are done using the Ctranspath feature extractor in [STAMP](https://github.com/KatherLab/STAMP)
+#### Tile Level Featue aggregation using attention
+The [CHIEF](https://github.com/hms-dbmi/CHIEF) Foundational model is used to aggregate the tile-level features to the slide-level features.
+#### Important Tile visualization
+The aggregation and important tile visualization is incorporated from [EAGLE](https://github.com/KatherLab/EAGLE)
