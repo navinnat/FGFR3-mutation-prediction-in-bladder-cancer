@@ -27,9 +27,10 @@ differentiating between the FGFR3 mutation and wild-type classes.
 <p align="center">
     <img src="assets/workflow.png" alt="failed loading the image" width="1100"/>
 </p>
+
 ### The analyis was done on Whole Slide Image of Bladder cancer aquired privately
 
-####
+#### Tiling and Feature Extraction
 The Tiling and feature extraction are done using the Ctranspath feature extractor in [STAMP](https://github.com/KatherLab/STAMP)
 #### Tile Level Featue aggregation using attention
 The [CHIEF](https://github.com/hms-dbmi/CHIEF) Foundational model is used to aggregate the tile-level features to the slide-level features.
